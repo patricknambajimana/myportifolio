@@ -1,12 +1,8 @@
 import React from "react";
-import { Link} from "react-router";
-
+import { Link } from "react-router";
 const NavBar = () => {
   return (
-    <div className="bg-cyan-600 p-7 flex justify-between  shadow">
-      <div>
-        <img src="" alt="" />
-      </div>
+    <div className="bg-cyan-600 p-7 flex justify-center fixed top-0 w-full z-10  shadow">
       <div className="flex gap-5 text-2xl capitalize text-white mr-20 font-bold">
         <Link
           to="/"
@@ -29,6 +25,7 @@ const NavBar = () => {
           skills
         </Link>
       </div>
+     
     </div>
   );
 };

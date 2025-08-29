@@ -1,14 +1,19 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
-import { Outlet } from "react-router";
+import { AboutPage } from "./AboutPage";
+import ContactPage from "./ContactPage";
+import SkillsPage from "./SkillsPage";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen">
       <NavBar />
       <Hero />
-      <Outlet />
+      <AboutPage />
+      <SkillsPage />
+      <ContactPage />
+       
     </div>
   );
 };

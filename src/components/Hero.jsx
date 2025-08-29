@@ -4,7 +4,7 @@ import { Download } from "lucide-react";
 import { UserPen } from "lucide-react";
 function Hero() {
   return (
-    <div>
+    <div className="mt-25">
       <div className=" text-cyan-900 capitalize text-center">
         <p>
           hello i'm <strong>patrick nambajimana</strong>{" "}
